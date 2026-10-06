@@ -4,5 +4,5 @@ function percentagecalculate() {
   res = (obtmarks / totmarks) * 100;
 
   document.getElementById("results").innerText =
-    "You have Obtained " + res + "%";
+    "You have Obtained " + res.toFixed(2) + "% Marks.";
 }
