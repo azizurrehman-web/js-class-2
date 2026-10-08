@@ -3,6 +3,6 @@ function percentagecalculate() {
   totmarks = document.getElementById("tot1").value;
   res = (obtmarks / totmarks) * 100;
 
-  document.getElementById("results").innerText =
+  document.getElementById("results").innerHTML =
     "You have Obtained " + res.toFixed(2) + "% Marks.";
 }
